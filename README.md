@@ -31,7 +31,7 @@ How do I set it up?
 Require this Composer plugin in your project template composer.json file:
 
     "require": {
-      "drupal/core-project-message": "^8.8"
+      "drupal/core-project-message": "^9.0"
     }
 
 ### Configuration
