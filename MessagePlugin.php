@@ -64,6 +64,7 @@ class MessagePlugin implements PluginInterface, EventSubscriberInterface {
     return [
       ScriptEvents::POST_CREATE_PROJECT_CMD => 'displayPostCreateMessage',
       ScriptEvents::POST_INSTALL_CMD => 'displayPostCreateMessage',
+      ScriptEvents::POST_UPDATE_CMD => 'displayPostCreateMessage',
     ];
   }
 
